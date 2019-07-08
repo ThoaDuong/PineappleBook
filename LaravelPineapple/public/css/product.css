@@ -1,0 +1,77 @@
+/* CSS Document */
+
+/*Product in home: discount product*/
+.products-home{
+	position: relative;
+	text-align: center;
+}
+.img-product-home{
+	height: 250px;
+	width: 70%;
+}
+.detail-product-home{
+	font-family: "Antic Didone";
+	font-size: 16px;
+}
+.base-price-home{
+	text-decoration: line-through;
+	color: #6D6C6C;
+}
+.sale-price-home{
+	font-weight: bold;
+	color: red;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+.products-home:hover{
+	box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+/*Item discount*/
+.item-discount{
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border: 2px solid red;
+	border-radius: 50%;
+	padding: 5px;
+	box-shadow:5px 5px 10px rgba(0,0,0,.2);
+}
+.img-discount{
+	height: 35px;
+	width: auto;
+}
+.sale-discount{
+	font-family: frijole;
+	color: red;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+/*Product in category: all type of book*/
+.products-category{
+	position: relative;
+	text-align: center;
+}
+.img-product-category{
+	height: 200px;
+	width: 70%;
+}
+.detail-product-category{
+	font-family: "Antic Didone";
+	font-size: 16px;
+}
+.base-price-category{
+	text-decoration: line-through;
+	color: #6D6C6C;
+}
+.sale-price-category{
+	font-weight: bold;
+	color: red;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+.products-category:hover{
+	box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+

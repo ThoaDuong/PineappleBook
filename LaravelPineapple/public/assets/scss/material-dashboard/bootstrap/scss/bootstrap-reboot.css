@@ -1,0 +1,81 @@
+/*
+Error: Invalid US-ASCII character "\xE2"
+        on line 6 of /Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss
+        from line 7 of /Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/_mixins.scss
+        from line 11 of /Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss
+
+1: // stylelint-disable indentation
+2: 
+3: // Hover mixin and `$enable-hover-media-query` are deprecated.
+4: //
+5: // Origally added during our alphas and maintained during betas, this mixin was
+6: // designed to prevent `:hover` stickiness on iOS—an issue where hover styles
+7: // would persist after initial touch.
+8: //
+9: // For backward compatibility, we've kept these mixins and updated them to
+10: // always return their regular psuedo-classes instead of a shimmed media query.
+11: //
+
+Backtrace:
+/Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss:6
+/Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/_mixins.scss:7
+/Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss:11
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1325:in `rescue in block in find_encoding_error'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1322:in `block in find_encoding_error'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1321:in `each'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1321:in `each_with_index'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1321:in `find_encoding_error'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:930:in `check_sass_encoding'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/engine.rb:436:in `check_encoding!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/engine.rb:392:in `_to_tree'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/engine.rb:312:in `to_tree'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `map'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/engine.rb:281:in `render'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:400:in `run'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/sass:34:in `load'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/sass:34:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE2\"\A         on line 6 of /Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss\A         from line 7 of /Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/_mixins.scss\A         from line 11 of /Applications/XAMPP/xamppfiles/htdocs/LaravelPineapple/public/assets/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss\A \A 1: // stylelint-disable indentation\A 2: \A 3: // Hover mixin and `$enable-hover-media-query` are deprecated.\A 4: //\A 5: // Origally added during our alphas and maintained during betas, this mixin was\A 6: // designed to prevent `:hover` stickiness on iOS—an issue where hover styles\A 7: // would persist after initial touch.\A 8: //\A 9: // For backward compatibility, we've kept these mixins and updated them to\A 10: // always return their regular psuedo-classes instead of a shimmed media query.\A 11: //"; }
